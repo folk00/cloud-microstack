@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cloud Microstack</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Cloud Microstack</h1>
+      <p>Reference cloud-native stack — Next.js + FastAPI + microservices on AWS</p>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <h2>API</h2>
+        <pre id="api-health">loading…</pre>
+      </div>
+      <div class="card">
+        <h2>Echo Service</h2>
+        <pre id="echo-health">loading…</pre>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Items</h2>
+      <table>
+        <thead><tr><th>ID</th><th>Name</th><th>Owner</th><th>Status</th></tr></thead>
+        <tbody id="items"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

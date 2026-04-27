@@ -1,0 +1,25 @@
+services:
+  api:
+    build:
+      context: ./api
+    environment:
+      - ECHO_BASE_URL=http://svc-echo:8001
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      - svc-echo
+
+  svc-echo:
+    build:
+      context: ./svc_echo
+    ports:
+      - "127.0.0.1:8001:8001"
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "${WEB_PORT:-8080}:3000"
+    depends_on:
+      - api
+      - svc-echo
