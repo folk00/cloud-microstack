@@ -70,10 +70,6 @@ Provisions an Amazon Linux 2023 EC2 instance in the default VPC with a Security 
 - **Infra:** Docker, Docker Compose, Terraform (AWS provider), Nginx
 - **Cloud:** AWS EC2, Security Groups, default VPC, Amazon Linux 2023
 
-## Why this exists
-
-I'm a senior network engineer (Cisco PS, 15+ yrs LAN/WAN/data center) transitioning into cloud engineering. This repo demonstrates the modern application/infra patterns my networking background already supports: VPC design, security groups, multi-service composition, and IaC-driven provisioning.
-
 ## License
 
 MIT
