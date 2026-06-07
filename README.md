@@ -2,7 +2,7 @@
 
 A reference cloud-native microstack: **Next.js 15 frontend + FastAPI API + microservice + Nginx** — orchestrated with Docker Compose locally and deployable to AWS via Terraform.
 
-Built as a reference project to demonstrate end-to-end ownership of a small cloud-native system: container builds, service-to-service communication, IaC provisioning, and a modern frontend.
+Demonstrates end-to-end ownership of a small cloud-native system: container builds, service-to-service communication, IaC provisioning, and a modern frontend.
 
 ## Architecture
 
