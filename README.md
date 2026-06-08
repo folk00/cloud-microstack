@@ -1,5 +1,7 @@
 # Cloud Microstack
 
+[![CI](https://github.com/folk00/cloud-microstack/actions/workflows/ci.yml/badge.svg)](https://github.com/folk00/cloud-microstack/actions/workflows/ci.yml)
+
 A reference cloud-native microstack: **Next.js 15 frontend + FastAPI API + microservice + Nginx** — orchestrated with Docker Compose locally and deployable to AWS via Terraform.
 
 Demonstrates end-to-end ownership of a small cloud-native system: container builds, service-to-service communication, IaC provisioning, and a modern frontend.
