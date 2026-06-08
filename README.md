@@ -1,6 +1,12 @@
 # Cloud Microstack
 
 [![CI](https://github.com/folk00/cloud-microstack/actions/workflows/ci.yml/badge.svg)](https://github.com/folk00/cloud-microstack/actions/workflows/ci.yml)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Next.js 15](https://img.shields.io/badge/Next.js-15-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![Terraform 1.7](https://img.shields.io/badge/terraform-1.7-7B42BC?logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A reference cloud-native microstack: **Next.js 15 frontend + FastAPI API + microservice + Nginx** — orchestrated with Docker Compose locally and deployable to AWS via Terraform.
 
